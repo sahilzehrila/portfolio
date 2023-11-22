@@ -27,11 +27,15 @@ const Works = () => {
         <span style={{color:darkMode? 'white' : ''}}>Frameworks</span>
         <span>I worked on </span>
         <spane>
-        Frameworks like <br /> React <br />Bootstrap
+          React <br />Bootstrap
         <br />Nodejs <br />
          Expressjs <br />
-         MongoDB
-      </spane>
+         MongoDB <br />
+         MySQL <br />
+         Git & Github <br />
+         Nextjs <br />
+
+         </spane>
         
            
        <a href={document} className='button s-button' id='btndnld' download>Documentry's </a>

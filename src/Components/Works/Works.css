@@ -1,9 +1,12 @@
 .works{
     padding: 12rem 3rem 0 3rem;
     display: flex;
-    height: 90vh;
+    height: 100vh;
+   
+    
     
 }
+
 .w-mainCircle img{
     height: 80px;
     width: 80px;

@@ -26,8 +26,8 @@ const Services = () => {
         <div className='amezing' >
         <span style={{color:darkMode? 'white' : ''}}>My Amezing</span>
         <span>Services</span>
-        <spane>"From HTML5 to C++, I craft digital experiences <br />with code. Designing with flair in Photoshop, <br /> animating in After Effects, and perfecting UX in Figma. <br />I also boost hardware performance and keep systems <br />fresh with upgrades and formatting.
-        <br /> Your tech needs, my expertise."</spane>
+        <spane>"
+ I specialize in React for dynamic UIs, <br /> Bootstrap for responsive design <br /> Node.js/Express.js for scalable backends, <br /> MongoDB/MySQL for efficient data management,<br /> and Git/GitHub for version control. <br />I bring expertise in Next.js <br />for high-performance applications"</spane>
         
            
        <a href={cv} className='button s-button' id='btndnld' download>Download  CV</a>
@@ -49,7 +49,7 @@ const Services = () => {
        
          
         >
-          <Card emoji={emoji} details={"Html ,Css JavaScript" + ",React, C++,JAVA " }  heading={"Technology's"}/>
+          <Card emoji={emoji} details={"Mongodb,Express " + "Nodejs,React,mySQL " }  heading={"Technology's"}/>
         </motion.div>
 
 
