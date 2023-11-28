@@ -61,3 +61,13 @@ a{
   padding:2rem  3rem ;
 }
 }
+
+@media  screen  and (max-width:500px) {
+
+
+  
+  .App{
+    padding:4rem  3rem ;
+  }
+  }
+  

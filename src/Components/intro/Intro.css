@@ -194,3 +194,11 @@ i-left{
   }
 }
 
+@media  screen  and (max-width:580px){
+    .App{
+        width: 300px;
+    }
+    .i-icons{
+        top: 40px;
+    }
+}
