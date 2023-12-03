@@ -104,7 +104,7 @@ background-color: rgb(253, 158, 15);
 @media  screen  and (max-width:480px) {
     .works{
         flex-direction: column;
-        height: 65rem;
+        height: 75rem;
         margin-top: 400px;
         padding: 0;
         gap: 5rem;
