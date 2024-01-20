@@ -24,7 +24,7 @@ const Services = () => {
 
         {/*left side texts*/ }
         <div className='amezing' >
-        <span style={{color:darkMode? 'white' : ''}}>My Amezing</span>
+        <span style={{color:darkMode? 'white' : ''}}>My Amazing</span>
         <span>Services</span>
         <spane>"
  I specialize in React for dynamic UIs, <br /> Bootstrap for responsive design <br /> Node.js/Express.js for scalable backends, <br /> MongoDB/MySQL for efficient data management,<br /> and Git/GitHub for version control. <br />I bring expertise in Next.js <br />for high-performance applications"</spane>
