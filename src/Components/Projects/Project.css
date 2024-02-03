@@ -37,9 +37,49 @@
 @media  screen  and (max-width:480px) {
 
 
+  
+}/* Update CSS for mobile view */
+@media screen and (max-width: 480px) {
+    
     #textt{
-        margin-right: 120px;
+       align-items: center;
         
     }
-  
+    .Portfolio {
+        height: auto; /* Adjust height to accommodate smaller screens */
+    }
+
+    .Portfolio span:nth-of-type(1) {
+        font-size: 2rem; /* Decrease font size for smaller screens */
+    }
+
+    .Portfolio span:nth-of-type(2) {
+        font-size: 2rem; /* Decrease font size for smaller screens */
+    }
+
+    .Portfolio-slider {
+        margin-top: 2rem; /* Adjust margin for smaller screens */
+    }
+
+    .Portfolio-slider .swiper-slide {
+        width: auto !important; /* Adjust slide width for smaller screens */
+        margin: 0 auto; /* Center the slides */
+    }
+
+    .Portfolio img {
+        width: 90%; /* Adjust image width for smaller screens */
+        max-width: 300px; /* Limit maximum image width */
+        margin: 0 auto; /* Center the images */
+    }
+}
+
+/* Update CSS for larger screens */
+@media screen and (min-width: 768px) {
+    .Portfolio-slider .swiper-slide {
+        width: 30rem !important; /* Adjust slide width for larger screens */
+    }
+
+    .Portfolio img {
+        width: 30rem; /* Adjust image width for larger screens */
+    }
 }
