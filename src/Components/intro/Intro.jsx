@@ -7,6 +7,7 @@ import v1 from '../../image/Vector1.png'
 import v2 from '../../image/Vector2.png'
 import crown from'../../image/crown.png'
 import glass from '../../image/3d.png'
+import Typewriter from 'typewriter-effect';
 import thup from '../../image/real.png'
 import model from'../../image/glassesimoji.png'
 import FloatingDiv from '../fd/FloatingDiv'
@@ -32,7 +33,13 @@ const Intro = () => {
       <div className='i-left'>
         <div className='i-name'>
           <span style={{color:darkMode? 'white' : ''}}>Hy! I Am</span>
-          <span>Sahil Sahoo</span>
+          <span><Typewriter
+  options={{
+    strings: ['Sahil Sahoo', 'Web-Developer','Software Engineer'],
+    autoStart: true,
+    loop: true,
+  }}
+/></span>
           <span style={{color:darkMode? 'white' : ''}}>"Web developers weave the digital tapestry of the modern world, <br /> shaping experiences with lines of code. <br /> Each click, each interaction, a testament to their craftsmanship. <br /> In a world driven by technology, <br /> they are the architects of the internet's future.".</span>
         </div>
         <Link spy={true} to='Contact'smooth={true} >
