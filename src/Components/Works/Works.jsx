@@ -6,6 +6,7 @@ import java from '../../image/java.png'
 import bootstrap from '../../image/bootstrap.png'
 import react from '../../image/physics.png'
 import dev from '../../image/developer.png'
+import cv from "../../cv/r1.pdf"
 import { theameContext } from '../../Context'
 import { useContext } from 'react'
 import {motion} from 'framer-motion'
@@ -38,7 +39,7 @@ const Works = () => {
          </spane>
         
            
-       <a href={document} className='button s-button' id='btndnld' download>Documentry's </a>
+         <a href={cv} className='button s-button' id='btndnld' download>Download  CV</a>
               
        
                 
