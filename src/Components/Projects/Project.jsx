@@ -27,6 +27,9 @@ const Project = () => {
                 className='Portfolio-slider'
             >
                 <SwiperSlide>
+                    <a href="https://comics-zone-8paq.vercel.app/"><img src={hoc} alt="" /></a>
+                </SwiperSlide>➡
+                <SwiperSlide>
                     <a href="https://sahilzehrila.github.io/ecom/"><img src={slid} alt="" /></a>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -35,9 +38,7 @@ const Project = () => {
                 <SwiperSlide>
                     <a href="https://sahilzehrila.github.io/weather-APP/"><img src={Music} alt="" /></a>
                 </SwiperSlide>
-                <SwiperSlide>
-                    <a href="https://comics-zone-8paq.vercel.app/"><img src={hoc} alt="" /></a>
-                </SwiperSlide>
+                
             </Swiper>
         </div>
     );
